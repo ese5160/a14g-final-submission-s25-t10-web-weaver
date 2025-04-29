@@ -1,11 +1,11 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/AlBFWSQg)
 # a14g-final-submission
 
-    * Team Number: 
-    * Team Name: 
-    * Team Members: 
-    * Github Repository URL: 
-    * Description of test hardware: (development boards, sensors, actuators, laptop + OS, etc) 
+    * Team Number: 10
+    * Team Name: Web Weaver
+    * Team Members: Zhiye Zhang, Yunlong Han
+    * Github Repository URL: https://github.com/ese5160/a14g-final-submission-s25-t10-web-weaver
+    * Description of test hardware: laptop, our costum PCBA, Sensors and actuators
 
 ## 1. Video Presentation
 
