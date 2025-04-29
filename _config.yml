@@ -1,1 +1,9 @@
-theme: time-machine
+title: ESE 5160 Final Project Demo Website
+description: Porject Demo site of T10 Web weaver
+theme: slate
+
+# Optional: Social links or additional configs
+author: Zhiye Zhang
+
+# Optional: Markdown settings
+markdown: kramdown
