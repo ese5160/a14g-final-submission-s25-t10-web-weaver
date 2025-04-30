@@ -106,11 +106,85 @@ Link: https://upenn-eselabs.365.altium.com/designs/46A4C42E-CAF3-49DD-92A3-5E922
 
 ## 3. Hardware & Software Requirements
 
+### HRS
+
+**HRS 01** - The project shall be based on SAMW25
+
+**HRS 02** - The project shall have 1 SHT45 temperature and humidity sensor, 1 PT1000 RTD temperature probe, 1 LCD screen, 1 Wi-Fi Module, one joystick and one button.
+
+**HRS 03** - The project shall use a joy stick to switch between different recipe
+
+**HRS 04** - The project shall have a SD card for storage purpose
+
+**HRS 05** - The project shall display a main user menu on LCD screen
+
+**HRS 06** - The project shall have some LED indications to indication the system status
+
+**HRS 07** - The project shall use LiPo battery as power source together with boost circuit for 5V supply and buck circuit for 3.3V supply
+
+### SRS
+
+**SRS 01** - There shall be a return on every screen to return to the main menu at any time.
+
+**SRS 02** - There shall be a menu to hold the specific recipe.
+
+**SRS 03** - The first page of recipe shall show the recipe title and ingredients. .
+
+**SRS 04** - The cooking instruction page shall have what to do in the current step, a temperature display, and the sensor data in real time.
+
+**SRS 05** - The should be a value display of the kitchen temperature and humidity at every screen.
+
 ## 4. Project Photos & Screenshots
+
+### Final project
+
+
+
+### Standalone PCBA
+
+#### Top View
+
+![](A14G_PCBA_top.JPG)
+
+#### Bottom View
+
+![](A14G_PCBA_bottom.jpg)
+
+### Thermal Image
+
+![](A14G_thermal_image.jpeg)
+
+### Altium Board Desgin
+
+#### 2D
+
+![](A14G_2D.PNG)
+
+#### 3D
+
+![](A14G_3D.PNG)
+
+### Node-RED
+
+#### Dashboard
+
+
+
+#### Backened
+
+
+
+### Block diagram
+
+![](A14G_detailed_diagram.png)
 
 ## Codebase
 
 - A link to your final embedded C firmware codebases
+
+  https://github.com/ese5160/final-project-a07g-a14g-t10-web-weaver
+
 - A link to your Node-RED dashboard code
+
 - Links to any other software required for the functionality of your device
 
