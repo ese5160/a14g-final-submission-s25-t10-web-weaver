@@ -69,6 +69,41 @@ We faced a lot of challenges in every stages of our design.
 
 1.  When we are developing firmware for our project, we found that we cannot access SD card in other thread. To solve this, we use inter-thread communication to transfer request and respond between the UI task and the Wi-Fi task so that we can access files in SD card.
 
+### Prototype Learnings
+
+1. Things might go out of expectations, so be sure there is always a backup plan so that the project won't failed. In our project, in the beginning, we assume the cs (chip select) Pin is not required since there is only one slave device in one SPI communication bus. However,  when we first test our peripheral devices, we found that it use the cs pin as the start and end of the transition, which make cs pin unreplaceable. Luckily, we have several gpio pin that can be reassign as cs pin for these SPI device. So it is important to have a backup plan.
+2. Prepare a golden image for everything. This is really important in debugging because you need to know what is correct. In our firmware driver development, we first get the official driver code from the product site and run it on Arduino UNO, make sure the device is running properly. Then use the logic analyzer to analyze the protocol, so that we can get a correct communication capture. We can use these as reference to build our own driver.
+
+### Next Steps & Takeaways
+
+#### Next Steps
+
+- For demo purpose, we only have 3 simple recipe. As there is much more available space in SD card, we should be able to add more recipes and categorize recipes based on ingredient type.
+- We can add more software function to our project. For example, a cooking timer is helpful to control the time of each step.
+- There is also a lot more improvement we can do in our Internet. For example, we can use it to manage the file in SD card, like creating and managing recipes and so on.
+
+#### Takeaways
+
+This course really taught us a lot of thing about realizing a IOT device, it went through the entire process of IoT design, which includes,
+
+1.  High-level architecture design
+2.  Device selection and pick up (which include reading the datasheet of the component to find the most suitable component)
+3.  Schematic design and best practice of it
+4.  PCB design and the best practice of it
+5.  Using debugger and Serial communication in software development
+6.  Use FreeRTOS to develop our project
+7. Use cloud server and node-red to do the Internet connection
+
+### Project Links
+
+#### Node-RED instance
+
+Link: http://135.18.249.92:1880/ui/
+
+#### Final PCBA
+
+Link: https://upenn-eselabs.365.altium.com/designs/46A4C42E-CAF3-49DD-92A3-5E922EC2AFCF#design
+
 ## 3. Hardware & Software Requirements
 
 ## 4. Project Photos & Screenshots
