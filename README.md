@@ -174,6 +174,8 @@ Link: https://upenn-eselabs.365.altium.com/designs/46A4C42E-CAF3-49DD-92A3-5E922
 
 ![](A14G_backened.png)
 
+![](A14G_backened_2.png)
+
 ### Block diagram
 
 ![](A14G_detailed_diagram.png)
