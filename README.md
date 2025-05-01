@@ -138,7 +138,7 @@ Link: https://upenn-eselabs.365.altium.com/designs/46A4C42E-CAF3-49DD-92A3-5E922
 
 ### Final project
 
-
+![](A14G_final_project.jpg)
 
 ### Standalone PCBA
 
@@ -168,11 +168,11 @@ Link: https://upenn-eselabs.365.altium.com/designs/46A4C42E-CAF3-49DD-92A3-5E922
 
 #### Dashboard
 
-
+![](A14G_dashboard.png)
 
 #### Backened
 
-
+![](A14G_backened.png)
 
 ### Block diagram
 
@@ -186,5 +186,7 @@ Link: https://upenn-eselabs.365.altium.com/designs/46A4C42E-CAF3-49DD-92A3-5E922
 
 - A link to your Node-RED dashboard code
 
-- Links to any other software required for the functionality of your device
+  See A14G_flow.json
+
+  Links to any other software required for the functionality of your device
 
